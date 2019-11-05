@@ -38,7 +38,9 @@ A collection of code files that provide _functionality_
 
 ## Problem (30 minutes)
 
-Write a program that prints `Banana` to the console and prove that it works with a unit test.
+Write a function that takes a single `string` argument and prefixes the argument with `Hello`. For example, if the input is `Banana`, the result should be: `Hello Banana`.
+
+Print the result to the console, and prove your functionality works with a unit test.
 
 ### Getting Started
 

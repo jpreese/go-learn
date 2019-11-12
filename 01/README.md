@@ -7,7 +7,8 @@
 
 ## Setting up your environment (10 minutes)
 
-1. [Download Go](https://golang.org/dl/)
+1. Download [Visual Studio Code](https://code.visualstudio.com/)
+1. Download [Go](https://golang.org/dl/)
 1. Install the `Go` extension for VSCode (found in Extensions within VSCode)
 1. Run `Go: Install/Update Tools` from the [command pallette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette)
 1. Set your VS Code settings

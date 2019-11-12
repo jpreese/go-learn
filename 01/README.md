@@ -34,7 +34,7 @@
     }
 ```
 
-NOTE: These settings are not _required_ to use Go, but are recommended. You are welcome to change them to better suite your preferences.
+NOTE: These settings are not _required_ to use Go, but are recommended. You are welcome to change them to better suit your preferences.
 
 ## Introducing Concepts (10 minutes)
 

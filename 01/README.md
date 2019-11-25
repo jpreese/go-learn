@@ -50,9 +50,6 @@ A collection of packages that are _versioned together_
 
 - Typically named after the URL where the repository lives
 - Uses Git tags that follow [Semantic Versioning](https://semver.org/)
-- Downloaded to your `module cache` which can be found at `$GOPATH/pkg`
-- Can use a _proxy_ to store releases (e.g. [proxy.golang.org](https://proxy.golang.org))
-- `sum` database stores hash to verify integrity of the module
 
 ## Problem (30 minutes)
 

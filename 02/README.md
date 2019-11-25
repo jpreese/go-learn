@@ -9,9 +9,11 @@
 
 .. 
 
-## Introducing the Slice (15 minutes)
+## Introducing the Slice type (15 minutes)
 
-### Go memory allocation
+But first.. types mean variables.. and variables mean..
+
+### Memory allocation
 
 - Go does not have a CLR or JVM. It runs on your machine.
 - Deterministic memory allocation and access.
@@ -38,7 +40,7 @@ type MyStruct struct {
 - This showcases what Go calls *alignment*. 
 - Determistic memory allocation for the target platform and faster runtime performance (at the cost of memory... technically).
 
-### The `array`
+### and now.. The `array`
 
 - Arrays and their size are a type
 
@@ -48,7 +50,7 @@ func MyFuncTakingAnArray(myArray [42]int)
 
 - Limited use. "Don't use an array unless you know what you are doing." *Example: You need to specifically need to plan out memory locations.*
 
-### The `slice`
+### Ok! The `slice`
 
 ```go
 func MyFuncTakingASlice(mySlice []int)

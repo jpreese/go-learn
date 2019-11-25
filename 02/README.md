@@ -87,6 +87,8 @@ Print the result to the console, and prove your functionality works with a unit 
 
 - You'll need to create a new module, `.go` file to put your code into, and a new `_test.go` file to put your tests.
 
+- The solution and full project set up for the previous lesson can be found [here](../01/solution).
+
 **The program**
 
 - Your function should take a `slice` of `int` and return an `int`.

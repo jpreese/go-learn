@@ -5,6 +5,10 @@
 1. Learn about the `array` type
 1. Learn about the `slice` type
 
+## Talk about the weather / Get settled (5 minutes)
+
+.. 
+
 ## Introducing the Slice (15 minutes)
 
 ### Go memory allocation
@@ -32,8 +36,7 @@ type MyStruct struct {
 ```
 
 - This showcases what Go calls *alignment*. 
-- Determistic memory allocation for the target platform and faster runtime performance (at the cost of memory allocation.. technically).
-- Driving reason behind lack of other primatives (linkedlist, graphs, etc).
+- Determistic memory allocation for the target platform and faster runtime performance (at the cost of memory... technically).
 
 ### The `array`
 
@@ -61,10 +64,43 @@ func MyFuncTakingASlice(mySlice []int)
 mySlice = append(mySlice, "somevalue") // assume slice of string
 ```
 
-*Fun fact: In Go, `string` is a (read-only) slice of `byte`*
+*Fun fact: In Go, `string` is a read-only slice of `byte`*
 
-## Problem (35 minutes)
+## Problem (30 minutes)
 
+Write a function that takes a `slice` of integers and returns how many times the number `100` is found in the slice.
+
+Print the result to the console, and prove your functionality works with a unit test.
+
+### Steps
+
+*REMINDER: If you're saving your work to a GitHub repo, don't forget to put your source in your repositories folder!*
+
+1. Create a module. `go mod init yourmodulehere`
+1. Create a `.go` file for your `main` function and counting function
+
+*NOTE: To write this program, you'll need to use `range`. Usage can be found here https://tour.golang.org/moretypes/16*. `range` is used to iterate over collections like `array`, `slice`, and `map`.
+
+### Stuck?
+
+- For getting started, you can refer to the [first lesson](../01/README.md). This goes over into more detail on how to start a new Go project and set up tests.
+
+- You'll need to create a new module, `.go` file to put your code into, and a new `_test.go` file to put your tests.
+
+**The program**
+
+- Your function should take a `slice` of `int` and return an `int`.
+- Use `range` to check if the current value is `100` and if so, count it.
+- Return the total count.
+
+**Testing**
+- Your test should have a `slice` of `int` that you create with some numbers, some of which should be `100`.
+
+- Your test should have a variable called `expected` of type `int` which is the number of times you expect the number 100 to appear in the list you passed in.
+
+- Your test should compare if `expected` is equal to `actual` (the number returned from your function).
+
+- Remember that `t.Errorf()` should be used to report a failed test.
 
 ## Review and Discussion (10 minutes)
 

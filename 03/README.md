@@ -113,7 +113,7 @@ func MyMethod() (int, error) {
 
 `error` is actually an _interface_.
 
-## Problem (30 minutes)
+## Problem (25 minutes)
 
 1. Write a function that uses [https://github.com/jpreese/slowimage](https://github.com/jpreese/slowimage) to download an image. 
 
@@ -152,4 +152,4 @@ func MyMethod() (int, error) {
 
 - Your test should make sure that the function that you created, returns the correct filename.
 
-## Review and Discussion (10 minutes)
+## Review and Discussion (15 minutes)

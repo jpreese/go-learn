@@ -113,9 +113,9 @@ func MyMethod() (int, error) {
 
 `error` is actually an _interface_.
 
-## Problem (30 minutes)
+## Problem (25 minutes)
 
-1. Write a function that uses [https://github.com/jpreese/go-slowimagedownloader](https://github.com/jpreese/go-slowimagedownloader) to download an image. 
+1. Write a function that uses [https://github.com/jpreese/slowimage](https://github.com/jpreese/go-slowimagedownloader) to download an image. 
 
     - Your function should return an **error** if the file that was downloaded is a blank string.
     - Your function should return the **name of the file** that was downloaded (if not blank).
@@ -126,16 +126,11 @@ func MyMethod() (int, error) {
 
 ### Stuck?
 
-**Getting started**
-- [The previous lessons](../) contain a lot of information on how to create a new project, and create test files.
-
-- You _will_ need to create a `go.mod` file
-
 **The program**
 
-- Your program will need to create a new `Image` provided by the `go-slowimagedownloader` library. Feel free to use whatever filename you want when creating it.
+- Your program will need to create a new `Image` provided by the `slowimage` library. Feel free to use whatever filename you want when creating it.
 
-- To import the go-slowimagedownloader library, include `"github.com/jpreese/go-slowimagedownloader/image"` in your import statement block. Similar to `fmt`.
+- To import the go-slowimagedownloader library, include `"github.com/jpreese/slowimage"` in your import statement block. Similar to `fmt`.
 
 - To access the members of the package (after importing it), use the `image.` prefix.
 
@@ -152,4 +147,4 @@ func MyMethod() (int, error) {
 
 - Your test should make sure that the function that you created, returns the correct filename.
 
-## Review and Discussion (10 minutes)
+## Review and Discussion (15 minutes)

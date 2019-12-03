@@ -127,7 +127,7 @@ func MyMethod() (int, error) {
 ### Stuck?
 
 **Getting started**
-- [The previous lessons](../) contain a lot of information on how to create a new project, and create test files.
+- [The previous lessons](https://github.com/jpreese/go-learn) contain a lot of information on how to create a new project, and create test files.
 
 - You _will_ need to create a `go.mod` file
 

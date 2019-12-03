@@ -115,7 +115,7 @@ func MyMethod() (int, error) {
 
 ## Problem (30 minutes)
 
-1. Write a function that uses [https://github.com/jpreese/go-slowimagedownloader](https://github.com/jpreese/go-slowimagedownloader) to download an image. 
+1. Write a function that uses [https://github.com/jpreese/slowimage](https://github.com/jpreese/slowimage) to download an image. 
 
     - Your function should return an **error** if the file that was downloaded is a blank string.
     - Your function should return the **name of the file** that was downloaded (if not blank).
@@ -133,11 +133,11 @@ func MyMethod() (int, error) {
 
 **The program**
 
-- Your program will need to create a new `Image` provided by the `go-slowimagedownloader` library. Feel free to use whatever filename you want when creating it.
+- Your program will need to create a new `Image` provided by the `slowimage` library. Feel free to use whatever Filename in the struct when creating it.
 
-- To import the go-slowimagedownloader library, include `"github.com/jpreese/go-slowimagedownloader/image"` in your import statement block. Similar to `fmt`.
+- To import the `slowimage` library, include `"github.com/jpreese/slowimage"` in your import statement block. Similar to `fmt`.
 
-- To access the members of the package (after importing it), use the `image.` prefix.
+- To access the members of the package (after importing it), use the `slowimage.` prefix.
 
 - **Your function will most likely need to take a parameter.**
 
